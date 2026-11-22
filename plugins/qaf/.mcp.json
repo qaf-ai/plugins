@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "qaf": {
+      "type": "http",
+      "url": "https://api.qaf.ai/mcp"
+    }
+  }
+}

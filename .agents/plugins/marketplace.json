@@ -1,0 +1,20 @@
+{
+  "name": "qaf",
+  "interface": {
+    "displayName": "Qaf"
+  },
+  "plugins": [
+    {
+      "name": "qaf",
+      "source": {
+        "source": "local",
+        "path": "./plugins/qaf"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    }
+  ]
+}
