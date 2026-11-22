@@ -1,0 +1,17 @@
+{
+  "name": "qaf",
+  "owner": {
+    "name": "Qaf LLC",
+    "email": "support@qaf.ai"
+  },
+  "metadata": {
+    "description": "Qaf plugins for AI assistants: search and cite classical Arabic Islamic books."
+  },
+  "plugins": [
+    {
+      "name": "qaf",
+      "source": "plugins/qaf",
+      "description": "Search classical Arabic Islamic books in English or Arabic, read passages in context, and cite them by book, author and printed page."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "qaf",
+  "displayName": "Qaf",
+  "version": "1.0.0",
+  "description": "Search classical Arabic Islamic books in English or Arabic, read passages in context, and cite them by book, author and printed page.",
+  "logo": "assets/logo-antigravity.svg",
+  "suggestedPrompts": [
+    "What do classical scholars say about combining prayers while traveling? Cite the books.",
+    "Find what al-Nawawi wrote about intention (niyyah) in his commentary on Sahih Muslim.",
+    "ما قول المالكية في المسح على الخفين؟ اذكر المصادر والصفحات."
+  ],
+  "author": {
+    "name": "Qaf LLC",
+    "url": "https://qaf.ai"
+  },
+  "homepage": "https://qaf.ai/mcp",
+  "repository": "https://github.com/qaf-ai/plugins",
+  "license": "MIT",
+  "keywords": [
+    "qaf",
+    "islamic",
+    "arabic",
+    "hadith",
+    "tafsir",
+    "fiqh",
+    "research"
+  ]
+}

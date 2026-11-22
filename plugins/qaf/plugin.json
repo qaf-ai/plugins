@@ -1,0 +1,55 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "qaf",
+  "version": "1.0.0",
+  "description": "Search classical Arabic Islamic books in English or Arabic, read passages in context, and cite them by book, author and printed page.",
+  "author": {
+    "name": "Qaf LLC",
+    "email": "support@qaf.ai",
+    "url": "https://qaf.ai"
+  },
+  "homepage": "https://qaf.ai/mcp",
+  "repository": "https://github.com/qaf-ai/plugins",
+  "license": "MIT",
+  "keywords": [
+    "qaf",
+    "islamic",
+    "arabic",
+    "hadith",
+    "tafsir",
+    "fiqh",
+    "research"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Qaf",
+        "shortDescription": "Search classical Islamic books",
+        "longDescription": "Qaf searches a library of classical Arabic books from the Islamic scholarly tradition: Qur’an commentary (tafsir), hadith collections and their commentaries, jurisprudence (fiqh) across the schools, theology, history, biography and Arabic language.\n\nAsk in English or Arabic. Qaf returns passages in the original Arabic with the book, author, volume and page, and a link to the printed page, so each point in an answer can be checked against its source. A search can be narrowed to an author, a book, a genre or an author's death year, and you can read the passages before and after a result.\n\nQaf is for students, teachers, researchers and anyone who wants to read what the classical sources say on a question, with references.\n\nLimitations: passages are in Arabic, and a translation or summary written by ChatGPT can contain errors. Qaf retrieves texts; it does not issue religious rulings. For a ruling on your own situation, ask a qualified scholar. The library holds classical works, not modern fatwas or news. Connecting requires a Qaf account, and each account has a weekly search allowance.",
+        "developerName": "Qaf LLC",
+        "category": "Education & Research",
+        "capabilities": [
+          "Search classical Arabic books",
+          "Read passages in context",
+          "Look up authors and books",
+          "Cite the printed page"
+        ],
+        "websiteURL": "https://qaf.ai/mcp",
+        "supportURL": "https://qaf.ai/contact",
+        "privacyPolicyURL": "https://qaf.ai/privacy",
+        "termsOfServiceURL": "https://qaf.ai/terms",
+        "defaultPrompt": [
+          "What do classical scholars say about combining prayers while traveling? Cite the books.",
+          "Find what al-Nawawi wrote about intention (niyyah) in his commentary on Sahih Muslim.",
+          "ما قول المالكية في المسح على الخفين؟ اذكر المصادر والصفحات."
+        ],
+        "brandColor": "#1D1C1C",
+        "brandColorDark": "#FBFBFB",
+        "composerIcon": "./assets/composer.png",
+        "composerIconDark": "./assets/composer-dark.png",
+        "logo": "./assets/logo.png",
+        "logoDark": "./assets/logo-dark.png"
+      }
+    }
+  }
+}

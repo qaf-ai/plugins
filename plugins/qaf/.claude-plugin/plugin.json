@@ -1,0 +1,28 @@
+{
+  "name": "qaf",
+  "displayName": "Qaf",
+  "version": "1.0.0",
+  "description": "Search classical Arabic Islamic books in English or Arabic, read passages in context, and cite them by book, author and printed page.",
+  "author": {
+    "name": "Qaf LLC",
+    "email": "support@qaf.ai",
+    "url": "https://qaf.ai"
+  },
+  "homepage": "https://qaf.ai/mcp",
+  "repository": "https://github.com/qaf-ai/plugins",
+  "license": "MIT",
+  "keywords": [
+    "qaf",
+    "islamic",
+    "arabic",
+    "hadith",
+    "tafsir",
+    "fiqh",
+    "research"
+  ],
+  "icon": "./assets/logo.png",
+  "documentationUrl": "https://developers.qaf.ai/mcp",
+  "supportUrl": "https://qaf.ai/contact",
+  "privacyPolicyUrl": "https://qaf.ai/privacy",
+  "termsOfServiceUrl": "https://qaf.ai/terms"
+}
